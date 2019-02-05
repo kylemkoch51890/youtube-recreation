@@ -1,6 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  border: 3px dashed blue;
+  height: 100%;
 }
 
 .searchbar {
@@ -10,31 +12,22 @@ html, body {
   justify-content: center;
 }
 
-.video-stream {
-  margin: 20px 0 0 20px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
+.video {
+  width: 70%;
+  height: 540px;
+  background: orange;
 }
 
-.description {
-  display: flex;
-  flex-direction: column;
+.comments {
+  width: 70%;
+  height: 80px;
+  background: teal;
 }
 
-.details {
-  width: 960px;
+.watch-next {
+  width: 30%;
+  height: 80px;
+  background: yellow;
   display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: space-between;
-}
-
-.items {
-  float: right;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
   justify-content: flex-end;
 }
