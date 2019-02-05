@@ -6,28 +6,32 @@ html, body {
 }
 
 .searchbar {
-  margin-top: 20px;
+  margin: 20px 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.video {
-  width: 70%;
-  height: 540px;
-  background: orange;
+.aside {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.comments {
+.main-video iframe {
+  margin: 0 auto;
+  padding-left: 30px; 
+}
+
+.main-video {
+  height: 100vh;
   width: 70%;
-  height: 80px;
-  background: teal;
+  background: rgba(0, 255, 0, .25);
 }
 
 .watch-next {
+  height: 100vh;
   width: 30%;
-  height: 80px;
-  background: yellow;
-  display: flex;
-  justify-content: flex-end;
+  background: rgba(0, 0, 255, .25);
 }
